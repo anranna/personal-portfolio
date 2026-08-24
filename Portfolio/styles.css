@@ -201,6 +201,19 @@
   }
 }
 
+
+@media (min-width: 761px) {
+  .hero h1 {
+    font-size: clamp(54px, 5.8vw, 92px);
+  }
+}
+
+@media (min-width: 1700px) {
+  .hero h1 {
+    font-size: 100px;
+  }
+}
+
 @media (min-width: 1420px) and (max-width: 1699px) {
   .work .case-summary .resource-head {
     align-items: flex-start;
@@ -231,3 +244,4 @@
     font-size: 24px;
   }
 }
+
